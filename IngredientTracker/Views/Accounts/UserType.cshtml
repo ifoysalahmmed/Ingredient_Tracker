@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - User Type</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="form-row text-center">
+        <div>
+            <h3>User Type</h3>
+        </div>
+
+        <br />
+        <br />
+        <div>
+            <div>
+                <div class="col-12">
+                    <button type="button" class="btn btn-success btn-lg" onclick="location.href='@Url.Action("ManagerLogin", "Accounts")'">Manager</button>
+                </div>
+            </div>
+            <br />
+            <div>
+                <div class="col-12">
+                    <button type="button" class="btn btn-success btn-lg" onclick="location.href='@Url.Action("ChefLogin", "Accounts")'">Chef</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
