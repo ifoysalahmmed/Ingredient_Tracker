@@ -6,7 +6,7 @@ update/delete ingredient and also assign chef. Chef can easily select menu; sele
 she want serve and cook the food. He/ She doesn’t have to remember the ingredients that are needed to cook
 C#, SQL Server 2014, HTML, CSS, Bootstrap, JavaScript
 
-## Technology
+## Technology:
 
 1. Client-side : HTML, CSS, Bootstrap and JavaScript
 2. Server-side: C#
